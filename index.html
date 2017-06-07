@@ -2,31 +2,62 @@
   <head>
     <title>Clock Angle by Deepak Verma</title>
     <script>
-      function CalculatAngle(Hour, Minute){
-        var hour = parseInt(Hour);
-        var min = parseInt(Minute);
-        var hourAngle = hour*30+hour/2;
+      function CalculateAngle(){
+      	var Hour = document.getElementById("hour").value;
+      	var Minute = document.getElementById("minute").value;
+      	try{
+        	var hour = parseInt(Hour);
+        	if (isNaN(hour)){
+        		raise;
+        	}
+      	}
+      	catch(err){
+      		alert("Please enter a valid value for Hour hand.")
+      		return false;
+      	}
+
+      	try{
+        	var min = parseInt(Minute);
+        	if (isNaN(min)){
+        		raise;
+        	}
+      	}
+      	catch(err){
+      		alert("Please enter a valid value for Minute hand.")
+      		return false;
+      	}
+        var hourAngle = hour*30+min/2;
         var minuteAngle = min*6;
+        var result = 0;
         if (hourAngle>minuteAngle){
-          return hourAngle - minuteAngle;
+          result = hourAngle - minuteAngle;
         }
         else{
-          return minuteAngle - hourAngle;
+          result = minuteAngle - hourAngle;
         }
+        document.getElementById("result").innerHTML = result;
       }
     </script>
     <style>
       div.center{
         margin-left: auto;
-        margin-right: auto;
-        width: 500px;
+	    margin-right: auto;
+	    max-width: 300px;
+	    margin-top: 100px;
+	    margin-bottom: 100px;
+	    padding: 50px;
       }      
+      span{
+      	display: block;
+      	margin-top: 10px;
+      }
+
       
     </style>
   </head>
   
   <body>
-    <div>
+    <div class="center">
       <div>
         <span>Hour</span>
         <span>
@@ -40,8 +71,8 @@
           <input type="text" name="minute" id="minute">
         </span>
       </div>
-      <span> <input type="button" name="calculate" value="Calculate Angle" onclick="CalculatAngle()"> </span>
-      <div>Angle is: <span id="result"></span></div>
+      <span> <input type="button" name="calculate" value="Calculate Angle" onclick="CalculateAngle()"> </span>
+      Angle is: <p id="result"></p>
     </div>
   </body>
   
