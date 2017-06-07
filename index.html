@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Clock Angle by Deepak Verma</title>
+    <script>
+      function CalculatAngle(Hour, Minute){
+        var hour = parseInt(Hour);
+        var min = parseInt(Minute);
+        var hourAngle = hour*30+hour/2;
+        var minuteAngle = min*6;
+        if (hourAngle>minuteAngle){
+          return hourAngle - minuteAngle;
+        }
+        else{
+          return minuteAngle - hourAngle;
+        }
+      }
+    </script>
+    <style>
+      div.center{
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+      }      
+      
+    </style>
+  </head>
+  
+  <body>
+    <div>
+      <div>
+        <span>Hour</span>
+        <span>
+          <input type="text" name="hour" id="hour">
+        </span>
+      </div>
+    
+      <div>
+        <span>Minute</span>
+        <span>
+          <input type="text" name="minute" id="minute">
+        </span>
+      </div>
+      <span> <input type="button" name="calculate" value="Calculate Angle" onclick="CalculatAngle()"> </span>
+      <div>Angle is: <span id="result"></span></div>
+    </div>
+  </body>
+  
+  
+</html>
