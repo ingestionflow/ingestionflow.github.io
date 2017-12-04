@@ -40,7 +40,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #187fbc; }
+  }
 
 hr.star-dark {
   border-color: #2C3E50; }
@@ -93,7 +93,7 @@ section {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #18BC9C; }
+        color: #187fbc; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -117,11 +117,10 @@ section {
     #mainNav .navbar-nav {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #fff;
-      background: #187fbc; }
+      color: #fff; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: #fff;
-        background: #187fbc; }
+        }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
@@ -253,13 +252,14 @@ form .row:first-child .floating-label-form-group {
 a {
   color: #187fbc; }
   a:focus, a:hover, a:active {
-    color: #187fbc; }
+    }
 
 .btn {
   border-width: 2px; }
 
 .bg-primary {
-  background-color: #187fbc !important; }
+  }
+  }
 
 .bg-secondary {
   background-color: #2C3E50 !important; }
@@ -274,7 +274,6 @@ a {
   background-color: #18BC9C;
   border-color: #18BC9C; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #187fbc;
     border-color: #187fbc; }
 
 .btn-secondary {
