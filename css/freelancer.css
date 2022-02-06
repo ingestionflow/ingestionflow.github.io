@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 body {
-  font-family: 'monospace'; }
+  font-family: 'fantasy'; }
 
 h1,
 h2,
@@ -13,7 +13,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'monospace'; }
+  font-family: 'fantasy'; }
 
 hr.star-light,
 hr.star-dark {
@@ -32,7 +32,7 @@ hr.star-dark:after {
   display: inline-block;
   padding: 0 0.25em;
   content: '\f005';
-  font-family: monospace;
+  font-family: fantasy;
   font-size: 2em; }
 
 hr.star-light {
@@ -84,7 +84,7 @@ section {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-weight: 700;
-  font-family: 'monospace'; }
+  font-family: 'fantasy'; }
   #mainNav .navbar-brand {
     color: #fff; }
   #mainNav .navbar-nav {
@@ -135,7 +135,7 @@ header.masthead {
     line-height: 3rem; }
   header.masthead h2 {
     font-size: 1.3rem;
-    font-family: 'monospace'; }
+    font-family: 'fantasy'; }
 
 @media (min-width: 992px) {
   header.masthead {
