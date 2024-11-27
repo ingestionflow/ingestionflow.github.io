@@ -535,8 +535,8 @@ a:hover {
   margin-top: 0;
 }
 .navigation .logo img {
-  height: auto;
-  width: 140px;
+  height: 60px;
+  width: 60px;
 }
 .navigation .navigation-menu li a.active {
   color: #57cbcc !important;
