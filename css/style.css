@@ -15,8 +15,8 @@ html {
 
 body {
   background-color: #353b43;
-  font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ffffff !important;
   -webkit-font-smoothing: antialiased;
   position: relative;
 }
@@ -28,12 +28,10 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
-  color: #afbac4;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+    font-size: 20px;
 }
 
 /*=================================================================
@@ -435,7 +433,6 @@ a:hover {
 .header-bradcrumb .active {
   color: #cfcfcf;
   font-weight: 200;
-  font-family: "Quattrocento Sans", sans-serif;
 }
 .header-bradcrumb a:hover {
   color: #57cbcc;
@@ -544,8 +541,8 @@ a:hover {
 .navigation .navigation-menu a {
   padding-left: 15px !important;
   padding-right: 15px !important;
-  font-size: 16px;
-  color: #737f8a;
+  font-size: 20px;
+  color: #ffffff !important;
 }
 .navigation .navigation-menu a:hover, .navigation .navigation-menu a:focus {
   background: transparent;
