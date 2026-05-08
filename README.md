@@ -10,8 +10,9 @@ cat ~/.ssh/id_ed25519_admin_ingestionflow.pub
 
 
 # Clone the repo
-git -c core.sshCommand="ssh -i ~/.ssh/id_ed25519_admin_ingestionflow" clone git@github.com:ingestionflow/allin-app.git
-cd allin-app
+
+git -c core.sshCommand="ssh -i ~/.ssh/id_ed25519_admin_ingestionflow" clone git@github.com:ingestionflow/ingestionflow.github.io.git
+cd ingestionflow.github.io
 
 # set default ssh private key to use for the cloned repo
 git config core.sshCommand "ssh -i ~/.ssh/id_ed25519_admin_ingestionflow"
