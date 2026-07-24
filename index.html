@@ -91,22 +91,22 @@ Sticky Navigation
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="display: none">
                             <a class="nav-link" href="#services">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#products">products</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="display: none">
                             <a class="nav-link" href="#mission">Mission</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="display: none">
                             <a class="nav-link" href="#vision">Vision</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item" style="display: none">
                             <a class="nav-link" href="#value">Core Values</a>
                         </li>
-                        <li class="nav-item" style="display:none">
+                        <li class="nav-item" style="display:none" >
                             <a class="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li class="nav-item" style="display:none">
@@ -127,7 +127,7 @@ Sticky Navigation
         </div>
     </div>
 </header>
-<section class="hero-area overlay" style="">
+<section class="hero-area overlay" id="home">
     <!-- <video autoplay muted loop class="hero-video">
        <source src="images/banner/hero-video.mp4" type="video/mp4">
    </video> -->
@@ -139,7 +139,7 @@ Sticky Navigation
         </div>
         <h1>Welcome to IngestionFlow</h1>
         <p>Where innovation meets seamless integration</p>
-        <a href="#home" class="btn btn-transparent smooth-scroll">Explore Us</a>
+        <a href="#about" class="btn btn-transparent smooth-scroll">Explore Us</a>
     </div>
 </section>
 
@@ -147,77 +147,14 @@ Sticky Navigation
 End Sticky Navigation
 ==================================== -->
 
-<!--
-		Start About Section
-		==================================== -->
-<section id="home" class="bg-one about section">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-12">
-                <!-- section title -->
-                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                    <h2>About <span class="color">Us</span></h2>
-                    <div class="border"></div>
-                </div>
-                <!-- /section title -->
-            </div>
-
-            <!-- About item -->
-            <div class="col-md-6 text-center wow fadeInUp" data-wow-duration="500ms">
-                <div class="block">
-                    <div class="icon-box">
-                        <i class="tf-tools"></i>
-                    </div>
-                    <!-- Express About Yourself -->
-                    <div class="content text-center">
-                        <h3 class="ddd">We're a Technology Company</h3>
-                        <p>Technology is at core of Ingestionflow. We use technology to build our products and solve our
-                            user problem and make their life easy while ingestionflow work for them.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- End About item -->
-
-            <!-- About item -->
-            <div class="col-md-6 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
-                <div class="block">
-                    <div class="icon-box">
-                        <i class="tf-strategy"></i>
-                    </div>
-                    <!-- Express About Yourself -->
-                    <div class="content text-center">
-                        <h3>We're Cloud Native</h3>
-                        <p>We are a team of highly profession engineer having experience multiple domains. We are a
-                            cloud native focused company.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- End About item -->
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- End section -->
-
 <section id="about" class="section about-2 padding-0 bg-dark container">
     <div class="container-fluid p-0">
         <div class="row no-gutters align-items-center">
             <div class="text-center wow fadeInUp">
                 <div class="content-block">
-                    <!--					<h2>About US</h2>-->
-                    <p>Welcome to IngestionFlow, where innovation meets seamless integration. At IngestionFlow, we
-                        specialize in creating cutting-edge IT products designed to drive efficiency and enhance digital
-                        transformation. Our flagship offerings, like OpenLLM.app, empower businesses to harness the
-                        power of AI and machine learning effortlessly.</p>
-                    <p>Beyond product development, we provide robust application development support on industry-leading
-                        platforms, including Google Cloud Platform (GCP), AWS, Kubernetes, and Generative AI (GenAI).
-                        Our expertise ensures scalable, secure, and high-performance solutions tailored to your unique
-                        business needs.</p>
-                    <p>At IngestionFlow, we are committed to helping organizations navigate the evolving tech landscape.
-                        Whether you’re integrating AI capabilities or building cloud-native applications, we’re here to
-                        streamline your journey with innovative solutions and unparalleled support.</p>
-
-                    <p>Join us in shaping the future of technology—one solution at a time.</p>
+                    <p>Welcome to IngestionFlow, where innovation meets seamless integration.
+                        Ingestionflow is a technology company at the core with the core purpose to solve consolidate and provide a single collaboration platform for organization to get their work done without distraction.</p>
+                    <p>Join us in shaping the future of technology — one solution at a time.</p>
                 </div>
             </div>
         </div>
@@ -227,7 +164,7 @@ End Sticky Navigation
 
 <!-- Start Services Section
 ==================================== -->
-<section id="services" class="bg-one section">
+<section id="services" class="bg-one section" style="display: none">
     <div class="container">
         <div class="row">
 
@@ -242,7 +179,7 @@ End Sticky Navigation
 
             <!-- Single Service Item -->
             <article class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
+                <div class=" text-center">
                     <div class="service-icon text-center">
                         <i class="tf-globe"></i>
                     </div>
@@ -254,7 +191,7 @@ End Sticky Navigation
 
             <!-- Single Service Item -->
             <article class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-                <div class="service-block text-center">
+                <div class=" text-center">
                     <div class="service-icon text-center">
                         <i class="tf-ion-laptop"></i>
                     </div>
@@ -288,18 +225,18 @@ End Sticky Navigation
 
             <!-- Single Service Item -->
             <article class="col-lg-12 col-md-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
+                <div class=" text-center">
                     <div class="service-icon text-center">
                         <i class="tf-globe"></i>
                     </div>
-                    <h3><a href="#">Allin</a></h3>
+                    <h3><a href="#">Allin - Launching soon</a></h3>
                     <p>Enterprise collaboration tool that combine project management, communication and document
                         management all in a single platform</p>
                 </div>
             </article>
             <!-- Single Service Item -->
             <article class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="500ms" style="display: none">
-                <div class="service-block text-center">
+                <div class=" text-center">
                     <div class="service-icon text-center">
                         <i class="tf-globe"></i>
                     </div>
@@ -312,7 +249,7 @@ End Sticky Navigation
             <!-- Single Service Item -->
             <article class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms"
                      style="display: none">
-                <div class="service-block text-center">
+                <div class=" text-center">
                     <div class="service-icon text-center">
                         <i class="tf-ion-laptop"></i>
                     </div>
@@ -330,7 +267,7 @@ End Sticky Navigation
 
 <!-- Start Services Section
 ==================================== -->
-<section id="mission" class="bg-one section">
+<section id="mission" class="bg-one section" style="display: none">
     <div class="container">
         <div class="row">
 
@@ -359,7 +296,7 @@ End Sticky Navigation
 
 <!-- Start Services Section
 ==================================== -->
-<section id="vision" class="bg-one section">
+<section id="vision" class="bg-one section" style="display: none">
     <div class="container">
         <div class="row">
 
@@ -388,7 +325,7 @@ End Sticky Navigation
 
 <!-- Start Services Section
 ==================================== -->
-<section id="value" class="bg-one section">
+<section id="value" class="bg-one section" style="display: none">
     <div class="container">
         <div class="row">
 
@@ -426,7 +363,7 @@ End Sticky Navigation
 
 <!-- Start Services Section
 ==================================== -->
-<section id="core_values" class="bg-one section">
+<section id="core_values" class="bg-one section" style="display: none">
     <div class="container">
         <div class="row">
 
@@ -441,7 +378,7 @@ End Sticky Navigation
 
             <!-- Single Service Item -->
             <article class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-center">
+                <div class=" text-center">
                     <div class="service-icon text-center">
                         <i class="tf-globe"></i>
                     </div>
@@ -453,7 +390,7 @@ End Sticky Navigation
 
             <!-- Single Service Item -->
             <article class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-                <div class="service-block text-center">
+                <div class=" text-center">
                     <div class="service-icon text-center">
                         <i class="tf-ion-laptop"></i>
                     </div>
@@ -473,7 +410,7 @@ End Sticky Navigation
 <!-- Start Team Skills
 		=========================================== -->
 
-<section id="team-skills" class="parallax-section section section-bg overly">
+<section id="team-skills" class="parallax-section section section-bg overly" style="display: none">
     <div class="container">
         <div class="row">
             <!-- section title -->
@@ -712,7 +649,7 @@ End Sticky Navigation
 Start Counter Section
 ==================================== -->
 
-<section id="counter" class="parallax-section bg-1 section overly">
+<section id="counter" class="parallax-section bg-1 section overly" style="display: none">
     <div class="container">
         <div class="row">
 
